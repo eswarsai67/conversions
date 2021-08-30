@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>converter</title>
+    <!--icon-->
+    <link rel="icon" href="https://cdn.online-converting.com/wp-content/uploads/logo.png">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CSS -->
+      <link rel="stylesheet" href="master.css">
+      <!-- google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id = "title"><u>CONVERSIONS</u></h1>
+    <div class = "fdiv">
+      <h3>Dollar to Rupee</h3>
+      <input type="text" name="dollar" id = "d" autocomplete="off" placeholder="enter value"><br>
+      <button type="button" name="button" onclick="return convertd()" class = "btn btn-outline-light">Convert</button>
+      <h2 id = "dol"></h2>
+    </div>
+    <div class="sdiv">
+      <h3>Rupee to Dollar</h3>
+      <input type="text" name="rupee" value="" id="rup" placeholder="enter value"><br>
+      <button type="button" name="button" class= "btn btn-outline-light" onclick = "return convertr()">Convert</button>
+      <h2 id="r"></h2>
+    </div>
+    <div class="tdiv">
+      <h3>Celsius to Farenheit</h3>
+      <input type="text" name="cel" value="" id = "celi" autocomplete="off" placeholder="enter value"><br>
+      <button type="button" name="button" class="btn btn-outline-light" onclick="return convertce()">Convert</button>
+      <h2 id="c"></h2>
+    </div>
+    <div class="fodiv">
+      <h3>Farenheit to Celsius</h3>
+      <input type="text" name="far" value="" placeholder="enter value" autocomplete="off" id="farh"><br>
+      <button type="button" name="button" class="btn btn-outline-light" onclick = "return convertf()">Convert</button>
+      <h2 id="f"></h2>
+    </div>
+    <div class="fidiv">
+      <h3>Percentage to CGPA</h3>
+      <input type="text" name="" value="" id = "per" autocomplete="off" placeholder="enter value"><br>
+      <button type="button" name="button" class="btn btn-outline-light" onclick ="return convertp()">Convert</button>
+      <h2 id="p"></h2>
+    </div>
+    <div class="sidiv">
+      <h3>CGPA to Percentage</h3>
+      <input type="text" name="" value="" id="cg" placeholder="enter value" autocomplete="off"><br>
+      <button type="button" name="button" class ="btn btn-outline-light" onclick ="return convertc()">Convert</button>
+      <h2 id="cgp"></h2>
+    </div>
+<!-- script -->
+<script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
